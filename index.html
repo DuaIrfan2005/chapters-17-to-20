@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 4 -->
+    
+    <!-- <h1>Multiplication Table Generator</h1>
+    <label for="tableNumber">Enter Table Number:</label>
+    <input type="number" id="tableNumber" placeholder="Table number"><br><br>
+    
+    <label for="tableLength">Enter Table Length:</label>
+    <input type="number" id="tableLength" placeholder="Table length"><br><br>
+    
+    <button onclick="generateTable()">Generate Table</button>
+    
+    <h2>Table:</h2>
+    <p id="result"></p> -->
+    
+    <!-- question no 3 -->
+    
+    <!-- <h1>Counting from 1 to 10</h1>
+    <p id="counting"></p>
+     -->
+    
+     <!-- question no 2 -->
+     
+     <!-- <h1>Matrix Representation</h1>
+     <p id="matrix"></p>
+     -->
+    
+    
+    
+    
+    <!-- question no 5 -->
+    
+    <!-- <h1>Fruits List</h1>
+    <div id="fruits-list"></div>
+    
+    <script>
+        
+        var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+        var container = document.getElementById('fruits-list');
+        for (var i = 0; i < 5; i++) {
+            container.innerHTML += fruits[i] + '<br>';
+        }
+    </script> -->
+
+    <!-- question no 6 -->
+    <!-- <h1>Series Generator</h1>
+    <div id="counting" class="series"></div>
+    <div id="reverse-counting" class="series"></div>
+    <div id="even" class="series"></div>
+    <div id="odd" class="series"></div>
+    <div id="series" class="series"></div>
+
+    <script>
+        
+        function displaySeries(id, series) {
+            document.getElementById(id).innerHTML = series.join(', ');
+        }
+
+        
+        var counting = [];
+        for (var i = 1; i <= 15; i++) {
+            counting.push(i);
+        }
+        displaySeries('counting', counting);
+
+        var reverseCounting = [];
+        for (var i = 10; i >= 1; i--) {
+            reverseCounting.push(i);
+        }
+        displaySeries('reverse-counting', reverseCounting);
+
+        var even = [];
+        for (var i = 0; i <= 20; i += 2) {
+            even.push(i);
+        }
+        displaySeries('even', even);
+        var odd = [];
+        for (var i = 1; i < 20; i += 2) {
+            odd.push(i);
+        }
+        displaySeries('odd', odd);
+
+        var series = [];
+        for (var i = 2; i <= 20; i += 2) {
+            series.push(i + 'k');
+        }
+        displaySeries('series', series);
+    </script>
+ -->
+ 
+ 
+<!-- question no 7  -->
+<!-- <h1>Search in Array</h1>
+ <input type="text" id="searchItem" placeholder="Enter item to search">
+ <button onclick="searchItem()">Search</button>
+ <p id="result"></p>
+
+ <script>
+
+     var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+++
+
+     function searchItem() {
+
+         var item = document.getElementById('searchItem').value.toLowerCase();
+
+         if (A.includes(item)) {
+             document.getElementById('result').innerHTML = item + " is available at index " + A.indexOf(item) + " in our bakery.";
+         } else {
+             document.getElementById('result').innerHTML = "We are sorry. " + item + " is not available in our bakery.";
+         }
+     }
+ </script> -->
+
+
+ <!-- question no 8 -->
+ <!-- <h1>Find the Largest Number in the Array</h1>
+ <button onclick="findLargest()">Find Largest Number</button>
+ <p id="result"></p>
+<script>
+ 
+ var A = [24, 53, 78, 91, 12];
+ 
+ function findLargest() {
+
+     var largest = A[0];
+     
+
+     for (var i = 1; i < A.length; i++) {
+         if (A[i] > largest) {
+             largest = A[i];
+         }
+     }
+     
+     document.getElementById('result').innerHTML = "The largest number is " + largest;
+ }
+</script> -->
+
+
+<!-- question no 9 -->
+<!-- <h1>Find the Smallest Number in the Array</h1>
+ <button onclick="findSmallest()">Find Smallest Number</button>
+ <p id="result"></p>
+
+<script>
+
+
+var A = [24, 53, 78, 91, 12];
+
+function findSmallest() {
+
+    var smallest = A[0];
+    
+    for (var i = 1; i < A.length; i++) {
+        if (A[i] < smallest) {
+            smallest = A[i];
+        }
+    }
+    
+    document.getElementById('result').innerHTML = "The smallest number is " + smallest;
+}
+</script> -->
+
+ <!-- question no 10    -->
+<!-- <h1>Multiples of 5 from 1 to 100</h1>
+    <button onclick="printMultiplesOf5()">Show Multiples</button>
+    <p id="result"></p>
+<script>
+    function printMultiplesOf5() {
+
+        var result = "";
+
+        for (var i = 1; i <= 100; i++) {
+            if (i % 5 === 0) {
+                result += i + " ";
+            }
+        }
+    
+        document.getElementById('result').innerHTML = result;
+    }
+</script> -->
+
+<script src="app.js"></script>
+</body>
+</html>
